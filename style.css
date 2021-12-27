@@ -1,0 +1,391 @@
+body {
+    background-image: url("./images/bg-mobile.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.father-box {
+   align-items: center;
+   justify-content: center;
+   padding: 15px 25px 20px 25px;
+}
+
+.mother-in-law img {
+    width: 120px;
+}
+
+.mother-node {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mother-node img {
+    height: 180px;
+    width: 250px;
+    position: relative;
+    top: 62px;
+}
+
+.son-box {
+    padding-top: 80px;
+    text-align: center;
+    color: hsl(300, 21%, 91%);
+}
+
+.son-box h1 {
+    font-size: 20px;
+}
+
+.son-box p {
+    font-size: 15px;
+}
+
+.son-box button {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    color:  hsl(257, 40%, 49%);
+    border: none;
+    box-shadow: 2px 3px rgb(59, 59, 59);
+}
+
+.daughter-box {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.daughterimg {
+    border: solid 0.5px white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons {
+    color: white;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.attribution {
+    position: relative; 
+    margin: 100px 0 5px 0;
+}
+
+@media only screen and (min-width: 375px) {
+     .mother-in-law img {
+         position: relative;
+         top: 13px;
+         width: 120px;
+     }
+     
+     .mother-node img {
+         height: 210px;
+         width: 300px;
+         position: relative;
+         top: 62px;
+     }
+     
+     .son-box {
+         padding-top: 120px;
+         text-align: center;
+         color: hsl(300, 21%, 91%);
+     }
+     
+     .son-box h1 {
+         font-size: 25px;
+     }
+     
+     .son-box p {
+         font-size: 15px;
+     }
+     
+     .son-box button {
+         position: relative;
+         top: 10px;
+         font-size: 16px;
+     }
+     
+     .daughter-box {
+         top: 80px;
+         padding-left: 120px;
+         padding-right: 120px;
+     }
+     
+     .daughterimg {
+         border: solid 0.5px white;
+         border-radius: 50%;
+         height: 30px;
+         width: 30px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     #icons {
+         color: white;
+         background-color: hsl(257, 40%, 49%);
+     }
+     
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url("./images/bg-desktop.svg");
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+    .father-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 25px 20px 25px;
+     }
+
+    .mother-node img {
+        height: 260px;
+        width: 340px;
+        position: relative;
+        top: 62px;
+    }
+    
+    .son-box {
+        padding-top: 20px;
+        position: relative;
+        top: 45px;
+        text-align: left;
+        left: 30px;
+        padding-right: 50px;
+        color: hsl(300, 21%, 91%);
+    }
+    
+    .son-box h1 {
+        font-size: 24px;
+    }
+    
+    .son-box p {
+        font-size: 9px;
+    }
+    
+    .son-box button {
+        height: 35px;
+        width: 120px;
+        border-radius: 50px;
+        color:  hsl(257, 40%, 49%);
+        border: none;
+        box-shadow: 2px 3px rgb(59, 59, 59);
+        font-size: 11px;
+    }
+    
+    .daughter-box {
+        position: relative;
+        top: 47px;
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        left: 65%;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .daughterimg {
+        border: solid 0.5px white;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #icons {
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .attribution {
+        position: relative; 
+        margin: 75px 0 5px 0;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px ) {
+    .father-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 45px 20px 45px;
+     }
+
+     .mother-in-law img {
+        width: 200px;
+    }
+
+    .mother-node img {
+        height: 350px;
+        width: 450px;
+        position: relative;
+        top: 62px;
+    }
+    
+    .son-box {
+        padding-top: 20px;
+        position: relative;
+        top: 60px;
+        text-align: left;
+        left: 30px;
+        padding-right: 50px;
+        color: hsl(300, 21%, 91%);
+    }
+    
+    .son-box h1 {
+        font-size: 35px;
+    }
+    
+    .son-box p {
+        font-size: 15px;
+    }
+    
+    .son-box button {
+        height: 45px;
+        width: 150px;
+        border-radius: 50px;
+        color:  hsl(257, 40%, 49%);
+        border: none;
+        box-shadow: 2px 3px rgb(59, 59, 59);
+        font-size: 15px;
+    }
+    
+    .daughter-box {
+        position: relative;
+        top: 69px;
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        left: 70%;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .daughterimg {
+        border: solid 0.5px white;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #icons {
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .attribution {
+        position: relative; 
+        margin: 100px 0 5px 0;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .father-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 60px 20px 60px;
+     }
+
+     .mother-in-law img {
+        width: 200px;
+    }
+
+    .mother-node img {
+        height: 400px;
+        width: 600px;
+        position: relative;
+        top: 62px;
+    }
+    
+    .son-box {
+        padding-top: 2px;
+        position: relative;
+        top: 50px;
+        text-align: left;
+        left: 30px;
+        padding-right: 100px;
+        color: hsl(300, 21%, 91%);
+    }
+    
+    .son-box h1 {
+        font-size: 40px;
+    }
+    
+    .son-box p {
+        font-size: 15px;
+        position: relative;
+        top: -17px;
+    }
+    
+    .son-box button {
+        height: 45px;
+        width: 150px;
+        border-radius: 50px;
+        color:  hsl(257, 40%, 49%);
+        border: none;
+        box-shadow: 2px 3px rgb(59, 59, 59);
+        font-size: 15px;
+        position: relative;
+        top: -10px;
+    }
+    
+    .daughter-box {
+        position: relative;
+        top: 90px;
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        left: 70%;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .daughterimg {
+        border: solid 0.5px white;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #icons {
+        color: white;
+        background-color: hsl(257, 40%, 49%);
+    }
+    
+    .attribution {
+        position: relative; 
+        margin: 100px 0 5px 0;
+    }
+
+
+}
+}
+
